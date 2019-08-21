@@ -1,25 +1,29 @@
 package ru.sandbox;
 
 public class MyFirstProgram {
-
     public static void main(String[] args) {
-        System.out.println("Hello World Testing if anything has changed");
+        hello("world");
+        hello("user");
+        hello("Val");
 
-        System.out.println(2 + 2);
-        System.out.println(2 * 2);
-        System.out.println(2 / 2);
-        System.out.println(2 - 2);
-        System.out.println(1 / 2);
-        System.out.println(1.0 / 2);
-        System.out.println(1 / 2.0);
-        System.out.println(2.0 / 2);
-        System.out.println("2" + "2");
-        System.out.println("2" + 2);
-        System.out.println(2 + "2");
+        double l = 5;
+        System.out.println("Distance of a square with a side " + l + " = " + area(l));
 
-        System.out.println((2 + 2) * 2);
+        double a = 4;
+        double b = 6;
+        System.out.println("Distance of a rectangle with a side " + a + " and " + b + " = " + area(a, b));
 
-        System.out.println("2 + 2 = " + (2 + 2));
 
+    }
+
+    public static void hello (String somebody) {
+        System.out.println("hello, " + somebody + "!");
+    }
+    public static double area(double len) {
+        return len * len;
+    }
+
+    public static double area(double a, double b) {
+        return a * b;
     }
 }
