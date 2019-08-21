@@ -6,12 +6,14 @@ public class MyFirstProgram {
         hello("user");
         hello("Val");
 
-        double l = 5;
-        System.out.println("Distance of a square with a side " + l + " = " + area(l));
+        Square s = new Square(5);
 
-        double a = 4;
-        double b = 6;
-        System.out.println("Distance of a rectangle with a side " + a + " and " + b + " = " + area(a, b));
+        System.out.println("Distance of a square with a side " + s.l + " = " + s.area());
+
+        Rectangle r = new Rectangle(4, 6);
+
+
+        System.out.println("Distance of a rectangle with a side " + r.a + " and " + r.b + " = " + r.area());
 
 
     }
@@ -19,11 +21,6 @@ public class MyFirstProgram {
     public static void hello (String somebody) {
         System.out.println("hello, " + somebody + "!");
     }
-    public static double area(double len) {
-        return len * len;
-    }
 
-    public static double area(double a, double b) {
-        return a * b;
-    }
+
 }
