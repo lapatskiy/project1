@@ -7,6 +7,7 @@ public class MyFirstProgram {
         hello("Val");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         Square s = new Square(5);
 
         System.out.println("Distance of a square with a side " + s.l + " = " + s.area());
@@ -19,10 +20,16 @@ public class MyFirstProgram {
 =======
         double l = 5;
         System.out.println("Distance of a square with a side " + l + " = " + area(l));
+=======
+        Square s = new Square(5);
+>>>>>>> parent of 7217d9f... Revert "Added test annotation"
 
-        double a = 4;
-        double b = 6;
-        System.out.println("Distance of a rectangle with a side " + a + " and " + b + " = " + area(a, b));
+        System.out.println("Distance of a square with a side " + s.l + " = " + s.area());
+
+        Rectangle r = new Rectangle(4, 6);
+
+
+        System.out.println("Distance of a rectangle with a side " + r.a + " and " + r.b + " = " + r.area());
 
 
     }
@@ -30,6 +37,7 @@ public class MyFirstProgram {
     public static void hello (String somebody) {
         System.out.println("hello, " + somebody + "!");
     }
+<<<<<<< HEAD
     public static double area(double len) {
         return len * len;
     }
@@ -47,4 +55,8 @@ public class MyFirstProgram {
 
 =======
 >>>>>>> parent of 4120dcd... Revert "Added additional functions"
+=======
+
+
+>>>>>>> parent of 7217d9f... Revert "Added test annotation"
 }
