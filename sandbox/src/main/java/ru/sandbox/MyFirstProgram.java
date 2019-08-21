@@ -1,6 +1,7 @@
 package ru.sandbox;
 
 public class MyFirstProgram {
+<<<<<<< HEAD
     public static void main(String[] args) {
         hello("world");
         hello("user");
@@ -30,10 +31,27 @@ public class MyFirstProgram {
 
 
         System.out.println("Distance of a rectangle with a side " + r.a + " and " + r.b + " = " + r.area());
+=======
 
+    public static void main(String[] args) {
+        System.out.println("Hello World Testing if anything has changed");
+>>>>>>> parent of cdfb7a0... Added additional functions
 
-    }
+        System.out.println(2 + 2);
+        System.out.println(2 * 2);
+        System.out.println(2 / 2);
+        System.out.println(2 - 2);
+        System.out.println(1 / 2);
+        System.out.println(1.0 / 2);
+        System.out.println(1 / 2.0);
+        System.out.println(2.0 / 2);
+        System.out.println("2" + "2");
+        System.out.println("2" + 2);
+        System.out.println(2 + "2");
 
+        System.out.println((2 + 2) * 2);
+
+<<<<<<< HEAD
     public static void hello (String somebody) {
         System.out.println("hello, " + somebody + "!");
     }
@@ -42,10 +60,12 @@ public class MyFirstProgram {
         return len * len;
     }
 >>>>>>> parent of 4120dcd... Revert "Added additional functions"
+=======
+        System.out.println("2 + 2 = " + (2 + 2));
+>>>>>>> parent of cdfb7a0... Added additional functions
 
-    public static double area(double a, double b) {
-        return a * b;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     public static void hello (String somebody) {
@@ -60,3 +80,6 @@ public class MyFirstProgram {
 
 >>>>>>> parent of 7217d9f... Revert "Added test annotation"
 }
+=======
+}
+>>>>>>> parent of cdfb7a0... Added additional functions
