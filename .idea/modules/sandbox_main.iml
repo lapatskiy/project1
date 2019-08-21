@@ -6,12 +6,16 @@
     <output url="file://$MODULE_DIR$/../../sandbox/build/classes/main" />
 =======
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+<<<<<<< HEAD
     <output url="file://$MODULE_DIR$/../../sandbox/build/classes/java/main" />
 >>>>>>> parent of 7217d9f... Revert "Added test annotation"
 =======
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../../sandbox/build/classes/java/main" />
 >>>>>>> parent of 7217d9f... Revert "Added test annotation"
+=======
+    <output url="file://$MODULE_DIR$/../../sandbox/build/classes/main" />
+>>>>>>> parent of 396e152... Added test annotation
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../sandbox/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../sandbox/src/main/java" isTestSource="false" />
@@ -19,7 +23,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.testng:testng:7.0.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.beust:jcommander:1.72" level="project" />
   </component>
 </module>
